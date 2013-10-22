@@ -1,0 +1,4 @@
+VSUpage::Application.routes.draw do
+   resources :members
+   root :to => redirect( /VSUpage )
+end
